@@ -16,7 +16,7 @@ Este projeto resolve o desafio de extração, indexação e busca inteligente de
 flowchart TD
     A[PDF e Imagem de Tabela] --> B[Extração de Texto e Tabela]
     B --> C[Limpeza e Organização dos Dados]
-    C --> D|"Indexação Semântica (embeddings + faiss)"|
+    C --> D[Indexação Semântica<br/>(embeddings + faiss)]
     D --> E[Busca Inteligente]
     E --> F[Geração de Respostas com Gemini]
 ```
